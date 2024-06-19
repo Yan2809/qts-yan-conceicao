@@ -16,5 +16,4 @@ Deno.test("Teste de informações de uma pessoa", () => {
     const idade = null; //Declaração da variável idade.
     assertExists(idade, "Variável idade não existe");
     //No exemplo, a variável idade recebe um valor NULO, consequentemente, essa assertion falha.
-
 })
