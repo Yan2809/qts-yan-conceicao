@@ -17,5 +17,4 @@ Deno.test("Teste de string", () => {
 
     assertStringIncludes(nossaStringLinda, "Batata", 'A string não contém a palavra "Batata" ');
     //Nesse exemplo, como a String NÃO contém a palavra "Batata", a assertion irá falhar.
-
 })
