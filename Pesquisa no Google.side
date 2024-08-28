@@ -1,0 +1,74 @@
+{
+  "id": "8d87b830-a184-40f0-a1a4-1e89764c0913",
+  "version": "2.0",
+  "name": "Pesquisa no Google",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "afefb499-7dd6-45d3-8e72-b5db8961762d",
+    "name": "Pesquisa com sucesso",
+    "commands": [{
+      "id": "49714bb7-1921-43e0-b598-a7652b5a106c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f03e3bc-51a3-42fd-b9d0-f335ede0b8ee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63c30586-cc59-4299-a060-fa802ae82f6c",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dc2f699-bca3-4014-a248-103573905c09",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "ETEC Camargo Aranha"
+    }, {
+      "id": "f4083343-f36d-4046-af01-d107eae677c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=cnt",
+      "targets": [
+        ["id=cnt", "id"],
+        ["css=#cnt", "css:finder"],
+        ["xpath=//div[@id='cnt']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div", "xpath:idRelative"],
+        ["xpath=//body/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c83ea2cb-ddaf-4bd0-a674-35ec5dfda681",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["afefb499-7dd6-45d3-8e72-b5db8961762d"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
